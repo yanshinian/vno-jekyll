@@ -14,4 +14,30 @@
     </section>
 
   </article>
+  <!--添加分享插件-->
+    <div class="ds-share flat" data-thread-key="{{ page.url }}" data-title="{{ page.title }}" data-images="{{ site.BASE_PATH }}/avatar.png" data-content="{{ page.title }}" data-url="{{ site.BASE_PATH }}{{ page.url }}">
+    <div class="ds-share-aside-right">
+      <div class="ds-share-aside-inner">
+      </div>
+      <div class="ds-share-aside-toggle">分享到</div>
+    </div>
+</div>
+    <!--分享插件end-->
+
+  <!-- 多说评论框 start -->
+  <div class="ds-thread" data-thread-key="{{ page.url }}" data-title="{{ page.title }}" data-url="{{ site.BASE_PATH }}{{ page.url }}"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"yanshinian"}; //请您改成自己的网站名称
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+  </script>
+<!-- 多说公共JS代码 end -->
 
