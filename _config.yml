@@ -1,0 +1,36 @@
+# This is the default format.
+# For more see: http://jekyllrb.com/docs/permalinks/
+permalink: /:title
+# https://help.github.com/articles/migrating-your-pages-site-from-maruku
+markdown: redcarpet
+
+highlighter: pygments
+paginate: 20 # pagination based on number of posts
+paginate_path: "page/:num"
+
+# These paths are to the main pages Jekyll-Bootstrap ships with.
+# Some JB helpers refer to these paths; change them here if needed.
+#
+categories_path : categories.html
+tags_path : tags.html
+
+#BASE_PATH : http://blog.ankanbiswas.in/uno-dbyll
+BASE_PATH : http://yanshinian.com
+
+description : 物尽其用！人尽其才！两全其美！
+title : 言十年的博客
+logo : /avatar.jpg
+#cover : /assets/images/background-cover.jpg
+
+
+author:
+  name: 言十年
+  maxim: Stay hungry,Stay foolish
+  role: Jekyll Theme
+  email: yan@yanshinian.com
+  github: yanshinian
+  twitter: yanshinian
+  facebook: 言十年
+  googleplus: +十年
+  bio: "我是言十年，互相学习，互相进步"
+  uno-dbyll: /avatar.jpg
